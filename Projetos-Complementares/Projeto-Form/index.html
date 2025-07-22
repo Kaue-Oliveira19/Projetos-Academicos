@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Formulário - Carro</title>
+        <link rel = "stylesheet" href = "CSS/styles.css">
+    </head>
+
+    <body>
+        <div class = "containerRoxo">
+            <header>
+                <h4>Cadastre o seu veículo para vender mais rápido!</h4>
+            </header>
+
+            <div class = form>
+                <form>
+                    <h3>FORMULÁRIO</h3>
+                    <div class = "parteRoxinha"></div>
+                    <hr id = "hr1">
+                    <h1>Venda fácil seu carro!</h1>
+                    <p>Descreva as características e marque os opcionais que ele possui</p>
+        
+                    <div class = "containerTitulo">
+                        <label for = "titulo">Título do anúncio <span>*</span></label>
+                        <input type = "text" id = "titulo" name = "titulo" placeholder = "Um título para armazenar o seu carro">
+                        <div class = "hrStyle">
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerPreco">
+                        <label for = "preco">Preço <span>*</span></label>
+                        <br>
+                        <input type = "number" id = "preco" name = "preco" placeholder = "Digite o preço">
+                        <div class = "hrStyle">
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerDescricao">
+                        <label for = "descricao">Descrição <span>*</span></label>
+                        <div>
+                            <textarea id = "descricao" name = "descricao" rows = "3" cols = "63" placeholder="Aqui você coloca os detalhes do veículo, por exemplo se ela tem algum arranhão"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerMarca">
+                        <label for = "marca">Marca <span>*</span></label>
+                        <br>
+                        <input type = "text" id = "marca" name = "marca" placeholder = "Digite a marca do veículo">
+                        <div class = "hrStyle">
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerModelo">
+                        <label for = "modelo">Modelo <span>*</span></label>
+                        <br>
+                        <input type = "text" id = "modelo" name = "modelo" placeholder = "Digite o modelo do veículo">
+                        <div class = "hrStyle">
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerKm">
+                        <label for = "km">Kilometragem <span>*</span></label>
+                        <br>
+                        <input type = "number" id = "km" name = "km" placeholder = "Digite a kilometragem do veículo">
+                        <div class = "hrStyle">
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerData">
+                        <label for = "data">Data de compra <span>*</span></label>
+                        <div>
+                            <input type = "date" id = "data" name = "data">
+                        </div>
+                        <div class = "hrStyle">
+                            <hr>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerCambio">
+                        <label for = "cambio">Tipo de câmbio: <span>*</span></label>
+                        <div class = "subContainerCambio">
+                            <div class = "radio">
+                                <input type = "radio" value = "manual" name = "cambio">
+                                <label for = "manual">Manual</label>
+                            </div>
+                            <div class = "radio">
+                                <input type = "radio" value = "automatico" name = "cambio">
+                                <label for = "automatico">Automático</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class = "containerOpcionais">
+                        <label for = "opcao">Opcionais</label>
+                        <div class = "subContainerOpcionais">
+                            <div class = "containerCheckbox">
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "airbag" name = "opcao">
+                                    <label for = "airbag">Airbag</label>
+                                </div>
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "alarme" name = "opcao">
+                                    <label for = "alarme">Alarme</label>
+                                </div>
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "ar_condicionado" name = "opcao">
+                                    <label for = "ar_condicionado">Ar Condicionado</label>
+                                </div>
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "camera_re" name = "opcao">
+                                    <label for = "camera_re">Câmera de Ré</label>
+                                </div>
+                            </div>
+                            
+                            <div class = "containerCheckbox">
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "assistente_pista" name = "opcao">
+                                    <label for = "assistente_pista">Assistente de Pista</label>
+                                </div>
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "partida_keyless" name = "opcao">
+                                    <label for = "partida_keyless">Partida Keyless</label>
+                                </div>
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "integracao_celular" name = "opcao">
+                                    <label for = "integracao_celular">Integração com Celular</label>
+                                </div>
+                                <div class = "checkbox">
+                                    <input type = "checkbox" value = "banco_couro" name = "opcao">
+                                    <label for = "banco_couro">Banco de Couro</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class = "containerFotos">
+                        <label for = "fotos">Fotos do carro <span>*</span></label>
+                        <div class = "subContainerFotos">
+                            <input type = "file" id = "fotos" name = "fotos">
+                        </div>
+                        <div class = "hrStyle">
+                            <hr>
+                        </div>
+                    </div>
+                        
+                    <div class = "containerEnviar">
+                        <input type = "submit" id = "enviar" name = "enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+Esse foi projeto acadêmico, onde eu tive que desenvolver um site bibliográfico sobre algo, então eu decidi escolher a minha banda favorita de Heavy Metal, que é o Death. Nesse site você pode entender sobre a sua história de origem e de seus álbuns.

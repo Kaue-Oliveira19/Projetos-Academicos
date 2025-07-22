@@ -1,0 +1,203 @@
+/* Header - Parte Roxa*/
+
+.containerRoxo {
+    height: 160px;
+    background-color: purple;
+    margin-top: -21px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+/*Frase - Cadastre o seu veículo para vender mais rápido!*/
+
+h4 {
+    color: white;
+    padding: 15px;
+}
+
+/*Corpo HTML*/
+
+body {
+    background-color: #cfcfcf;
+    font-family: 'arial';
+}
+
+/*Altera a cor do texto*/
+
+span {
+    color:red;
+}
+
+/*Div - Formulário*/
+
+.form {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+}
+
+/*Título - Formulário*/
+
+h3 {
+    text-align: center;
+    margin-top: 0px;
+    color: purple;
+  }
+
+/*Altera os HRs*/
+
+.hrStyle {
+    width: 485px;
+}
+
+/*ID do primeiro HR*/
+
+#hr1 {
+    margin-top: 0px;
+}
+
+/*Parte Roxinha, que fica em cima do primeiro HR*/
+
+.parteRoxinha {
+    background-color: purple;
+    height: 3px;
+    width: 150px;
+    margin-left: 223px;
+}
+
+/*Todos os inputs */ 
+
+input {
+    border: 0px;
+    margin-top: 0px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+/*Div - Título*/
+
+/*Input - Título*/
+#titulo {
+    width: 478px;
+}
+
+/*Div - Preço*/
+
+.containerPreco {
+    margin-top: 30px;
+}
+
+/*Input - Preço*/
+#preco {
+    width: 478px;
+}
+
+/*Div - Descrição*/
+
+.containerDescricao {
+    margin-top: 30px;
+}
+
+/*Div - Marca*/
+
+.containerMarca {
+    margin-top: 30px;
+}
+
+/*Input - Marca*/
+#marca {
+    width: 478px;
+}
+
+/*Div - Modelo*/
+
+.containerModelo {
+    margin-top: 30px;
+}
+
+/*Input - Modelo*/
+#modelo {
+    width: 478px;
+}
+
+/*Div - Kilometragem*/
+
+.containerKm {
+    margin-top: 30px;
+}
+
+/*Input - Km*/
+#km {
+    width: 478px;
+}
+
+/*Div - Data*/
+
+.containerData {
+    margin-top: 30px;
+}
+
+/*Input - Data*/
+
+#data {
+    width: 478px;
+}
+
+/*Div - Câmbio*/
+
+.containerCambio {
+    margin-top: 30px;
+}
+
+.subContainerCambio {
+    margin-top: 15px;
+    margin-left: 0px;
+}
+
+.radio {
+    display: inline-block;
+}
+
+/*Div - Opcionais*/
+
+.containerOpcionais {
+    margin-top: 30px;
+}
+
+.subContainerOpcionais{
+    margin-top: 15px;
+}
+
+.containerCheckbox {
+    height: 90px;
+    width: 190px;
+    display: inline-block;
+}
+
+/*Div - Fotos*/
+
+.containerFotos {
+    margin-top: 30px;
+}
+
+.subContainerFotos {
+    margin-top: 30px;
+}
+
+/*Div - Enviar*/
+
+.containerEnviar {
+    margin-top: 30px;
+}
+
+/*Input - Enviar*/
+#enviar {
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    color: white;
+    background-color: purple;
+    border: 0px;
+}
