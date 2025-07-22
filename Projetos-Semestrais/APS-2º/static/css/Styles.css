@@ -1,0 +1,1372 @@
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS PADRÃO DO SITE|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Altera toda a página*/
+* {
+    padding: auto;
+    margin: auto;
+}
+/*Edita todos os links*/
+a {
+    text-decoration: none;
+    color: white;
+}
+/*Limpar o Float*/
+.Clear {
+    clear: none;
+}
+/*Variaveis das cores utlizadas no site*/
+:root {
+    --cor1 : #00382D;
+    --cor2 : white;
+    --cor3 : #C0FF72;
+    --cor4 : #3c532d;
+    --cor5 : #459c79;
+}
+/*Altera o corpo do site*/
+body {
+    background-color: var(--cor1);
+}
+/*Altera a barra superior do site*/
+header {
+    border-bottom: 1px solid white;
+    background-color: var(--cor1); 
+    height: 8%;
+    position: fixed;
+    width: 100%;
+}
+/*Botão no formato de planeta que faz mudar a cor o site*/
+header button {
+    width: 30px;
+    height: 30px;
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 50%;
+    background-image: url(../Imagens/Botão.png);
+    background-position: center center  ;
+    transition-duration: 1s;
+}
+/*Acrescenta um efeito no botão que faz mudar de cor o site*/
+header button:hover {
+    background-color: var(--cor3);
+    background-image: url(../Imagens/Botão1.png);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Edita a logo do site*/
+.Logo {
+    float: left;
+    margin: 15px 50px 30px 50px; 
+}
+/*Editar diretamente os elemento do header, que são Home, Contato, Quem Somos e desenho do planeta*/
+.Barra {
+    float: right;
+    margin: 1.2%;
+    font-size: 22px;
+    list-style: none;
+    cursor: pointer;
+}
+/*Acrescenta um efeito nos elementos do header*/
+.Barra:hover {
+    color: var(--cor3);
+    transition-duration: 1s;
+} 
+/*Altera a primeira seção, que é a Home*/
+#container1{
+    background-color: var(--cor4);
+    margin: auto;
+    height: 820px;  
+    background-image: url(../Imagens/Fundo1.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center center ;
+}
+/*Texto da introdução do site*/
+#Introducao1 {
+    width: 275px;
+    height: 425px;
+    float: left;
+    text-align: center;
+    margin: 20% auto auto 10%; 
+    margin-top: 250px;   
+}
+/*Altera a segunda seção, que é a Quem Somos*/
+#container2{
+    background-color: var(--cor1);
+    margin: auto;
+    height: 500px;
+}
+/*Altera a terceira seção, que é o primeiro trio de perguntas*/
+#container3, #container5{
+    background-color: var(--cor4);
+    margin: auto;
+    height: 650px;
+}
+/*Altera a quarta seção, que é o segundo trio de perguntas*/
+#container4{
+    background-color: var(--cor1);
+    margin: auto;
+    height: 650px;
+}
+/*Altera a sexta seção, que é a parte de resultados*/
+#container6{
+    background-color: var(--cor1);
+    margin: auto;
+    height: 800px;
+}
+/*Altera o título da sexta seção*/
+#seuResultado{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor3);
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 40% ;
+}
+/*Altera a sétima seção, que é a parte de dicas*/
+#container7{
+    background-color: var(--cor4);
+    background-image: url(../Imagens/Fundo2.jpg);
+    background-size: 100% ;
+    background-repeat: repeat;
+    background-position: center center ;
+    margin: auto;
+    height: 840px;
+    padding: auto;
+}
+/*Altera a barra da parte inferior do site*/
+footer {
+    float: left;
+    width: 100%;
+    height: 10%;
+    background-color: var(--cor1 );  
+    margin: auto;
+    padding: auto;
+    position: fixed;
+    bottom: 0px;
+    border-top: 5px var(--cor4) dotted;
+}
+/*Metade do logo*/
+.Titulo1{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--cor2);
+    margin-top: -0px;
+    text-indent: 45px;
+}
+/*Outro metade do logo*/
+.Titulo2{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*Cores do texto*/
+.Titulo3{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor2);
+}
+/*Cores do texto */
+.Titulo4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*Cores do texto */
+.Titulo5{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor3);
+    margin-top: 0px;
+    text-align: center;
+    margin-top: 40% ;
+}
+/*Cores do texto*/
+.Titulo6{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--cor3);
+    margin-top: 30px;
+    text-align: center;;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin: 10% 10% 15% 10%;
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 45px;
+
+}
+/*Texto das perguntas do slide 2*/
+.Texto2 {
+    margin: 10% 4% auto 4%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/*Texto das perguntas do slide 3*/
+.Texto3 {
+    margin: 10% 4% auto 4%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/*Texto das perguntas do slide 3*/
+.Texto4 {
+    margin: 10% 4% auto 4%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/**/
+.Texto5 {
+    margin: 1% 30% auto 37%;
+    display: block;
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+/**/
+.Texto6 {
+    margin: -5% 20% 7% 15%;
+    float: left; 
+    text-align: center;
+}
+/**/
+.Texto7 {
+    margin: -15% 20% 4% 25%;
+    float: left;
+}
+/**/
+.Texto8 {
+    margin: 8% 54% 10% 5%;
+    position: absolute; 
+    text-align: justify;
+    display: block;
+    border-right: var(--cor2) 7px dotted;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/**/
+.Texto9 {
+    margin: 9% 20% 10% 15%;
+    position: absolute; 
+    text-align: justify;
+    display: block;
+}
+/**/
+.Texto10 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+}
+/**/
+.Texto11 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+    text-indent: 45px;
+}
+/**/
+.Texto12 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+    text-indent: 45px;
+}
+/**/
+.Texto13 {
+    margin: 3% 20% 4% 20%;
+    text-align: justify;
+    display: block;
+    text-indent: 45px;
+}
+/**/
+.Texto14 {
+    margin: 1% 10% 15% 25%;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/**/
+.Texto15 {
+    float: left;
+    margin: 5% 15% 10% 17%;
+    text-align: center;
+}
+/*Altera as imagens*/
+img {
+    width: 90%;
+    border: 5px solid var(--cor2);
+}
+/*Botão calcular que direciona você para a parte das perguntas*/
+#btnIrCalcular{
+    margin-top: 15px;
+    width: 120px;
+    height: 60px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor4);
+    transition-duration: 1s;
+    border: none;
+}
+/*Acrescenta um efeito no botão calcular*/
+#btnIrCalcular:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o primeiro botão próximo*/
+#btnProximo1{
+    width: 120px;
+    height: 60px;
+    margin: -68px 20px auto 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: right;
+}
+/*Acrescenta um efeito no botão próximo*/
+#btnProximo1:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o segundo botão próximo*/
+#btnProximo2{
+    width: 120px;
+    height: 60px;
+    margin: -60px 20px auto 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: right;
+}
+/*Acrescenta um efeito no botão próximo*/
+#btnProximo2:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o terceiro botão próximo*/
+#btnProximo3{
+    width: 120px;
+    height: 60px;
+    margin: -60px 20px auto 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: right;
+}
+/*Acrescenta um efeito no botão próximo*/
+#btnProximo3:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o primeiro botão voltar*/
+#btnVoltar1{
+    width: 120px;
+    height: 60px;
+    margin: -68px auto auto 20px;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: left;
+}
+/*Acrescenta um efeito no botão Voltar*/
+#btnVoltar1:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o segundo botão voltar*/
+#btnVoltar2{
+    width: 120px;
+    height: 60px;
+    margin: 40px auto auto 20px;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+}
+/*Acrescenta um efeito no botão Voltar*/
+#btnVoltar2:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o terceiro botão voltar*/
+#btnVoltar3{
+    width: 120px;
+    height: 60px;
+    margin: 40px auto auto 20px;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: left;
+}
+/*Acrescenta um efeito no botão Voltar*/
+#btnVoltar3:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o quarto botão voltar*/
+#btnVoltar4{
+    width: 120px;
+    height: 60px;
+    margin: 40px auto auto 20px;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: left;
+}
+/*Acrescenta um efeito no botão Voltar*/
+#btnVoltar4:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o quinto botão voltar*/
+#btnVoltar5{
+    width: 120px;
+    height: 60px;
+    margin: -89px auto auto 20px;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: left;
+}
+/*Acrescenta um efeito no botão Voltar*/
+#btnVoltar5:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o sexto botão voltar*/
+#btnVoltar6{
+    width: 120px;
+    height: 60px;
+    margin: -20px auto auto 600px;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: left;
+}
+/*Acrescenta um efeito no botão Voltar*/
+#btnVoltar6:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o botão que calcula*/
+#btnResultado{
+    width: 120px;
+    height: 60px;
+    margin: -60px 20px auto 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: right;
+}
+/*Acrescenta um efeito no botão calcular*/
+#btnResultado:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Altera o botão que mostra as dicas*/
+#btnDicas{
+    width: 120px;
+    height: 60px;
+    margin: -89px 20px auto 88%;
+    border-radius: 25px;
+    border: 1px var(--cor2) solid;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+    background-color: var(--cor1);
+    transition-duration: 1s;
+    text-align: center;
+    float: right;
+}
+/*Acrescenta um efeito no botão calcular*/
+#btnDicas:hover {
+    background-color: var(--cor3);
+    color: var(--cor4);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Editar o conteudo do footer*/ 
+.Bot {
+    float: left;
+    margin: 2% 1% 1% 1%;
+    font-size: 17px;     
+    transition-duration: 1s;
+    list-style: none;
+}
+/*Editar o conteudo do footer*/ 
+.Bot:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+    transition-duration: 1s;
+}
+/*Editar o conteudo do footer*/ 
+.Bot1 {
+    float: left;
+    margin: 2% 1% 1% 15%;
+    font-size: 17px;
+    transition-duration: 1s;
+    list-style: none;
+}
+/*Editar o conteudo do footer*/ 
+.Bot1:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+/*Editar o conteudo do footer*/ 
+.Bot2 {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: var(--cor2);
+    font-size: 15px; 
+}
+/*Altera os elementos do footer, mas apenas a página Contato*/
+#botContato{
+    margin-left: 202.2px;
+}
+/*Botão para colocar a informação do slide 2*/
+input{
+    border: none;
+    border-radius: 50px;
+    margin: 30% 20% auto 35%;
+    width: 80px;
+    height: 50px;
+    background-color: var(--cor5);
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor3);
+}
+/*Retira a seta para cima e para baixo do botão*/
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+/**/
+input[type="number"]::placeholder {
+    color: var(--cor3);
+  }
+/**/
+.ContatoE {
+    margin: 9% auto auto 6%;
+    width: 18%;
+    height: 70%;
+    border-right: 7px dotted var(--cor2) ;
+    float: left;
+    text-align: center;
+}
+/**/
+.ContatoC {
+    margin: 9% auto auto -2%;
+    width: 18%;
+    height: 70%;
+    border-right: 7px dotted var(--cor2) ;
+    text-align: center;
+    float: left;
+}
+/**/
+.ContatoD {
+    margin: 9% auto auto -2%;
+    width: 18%;
+    height: 70%;
+    float: left;
+    text-align: center;
+}
+/**/
+.Github {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(../Imagens/LogoGithub.png);
+    background-repeat: no-repeat;
+    position: center center;
+    margin: 5% 13% 10% 30%;
+    cursor: pointer;
+}
+/**/
+.Gmail {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(../Imagens/LogoGmail.png);
+    background-repeat: no-repeat;
+    position: center center;
+    margin: 6% 15% 10% 30%;
+    background-color: var(--cor4);
+    cursor: pointer;
+}
+/**/
+.Linkedin {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(../Imagens/LogoLinkedin.png);
+    background-repeat: no-repeat;
+    position: center center;
+    margin: 5% 15% 10% 30%;
+    background-color: var(--cor4);
+    cursor: pointer;
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS RESPONSIVIDADE PARA DESKTOP|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Resolução 1920×1080*/
+@media screen and (max-width: 1920px){
+/*Editar diretamente os elemento do header*/
+.Logo {
+    margin-top: 25px; 
+}
+/*Editar diretamente os elemento do header*/
+nav .Barra {
+    margin: 1.3%;
+    font-size: 30px;
+}
+/**/
+#container1{
+    height: 850px;  
+}
+/*Texto da introdução do site*/
+#Introducao1 {
+    margin-top: 300px;     
+}
+/**/
+#container2{
+    height: 875px;
+}
+#quemSomos{
+    padding: 150px;
+    font-size: 90px;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin-top: -100px;
+}
+/**/
+#btnVoltar1{
+    margin: 60px auto auto 20px;
+}
+/**/
+#btnProximo1{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container3{
+    height: 900px;
+}
+/*Texto das perguntas do slide 2*/
+.Texto2 {
+    margin: 15% 4% auto 4%;
+}
+/**/
+#btnVoltar2{
+    margin: -18px auto auto 20px;
+}
+/**/
+#btnProximo2{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container4{
+    height: 900px;
+}
+/**/
+#btnVoltar3{
+    margin: -18px auto auto 20px;
+}
+/**/
+#btnProximo3{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container5{
+    height: 900px;
+}
+/**/
+#btnVoltar4{
+    margin: -18px auto auto 20px;
+}
+/**/
+#btnResultado{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container6{
+    height: 840px;
+}
+/*cores do texto */
+#seuResultado{
+    margin-top: 27%;
+    font-size: 90px;
+}
+/**/
+.Texto6{
+    margin-top: -140px;
+}
+/**/
+#btnVoltar5{
+    margin: 76px auto auto 20px;
+}
+/**/
+#btnDicas{
+    margin: -59px 20px auto 88%;
+}
+/**/
+#container7{
+    height: 1160px;
+}
+/**/
+.Titulo5{
+    margin-top: 435px;
+    font-size: 90px;
+}
+/**/
+#btnVoltar6{
+    margin: -40px auto auto 900px;
+}
+/**/
+.Bot, .Bot1, .Bot2{
+    font-size: 20px;
+}
+}
+
+/*Resolução 1600×900*/
+@media screen and (max-width: 1600px){
+/*Editar diretamente os elemento do header*/
+.Logo {
+    margin-top: 20px; 
+}
+/*Editar diretamente os elemento do header*/
+.Barra {
+    margin: 1.5%;
+    font-size: 28px;
+}
+/**/
+#container1{
+    height: 805px;  
+}
+/*Texto da introdução do site*/
+#Introducao1 {
+    margin-top: 275px;      
+}
+/**/
+#container2{
+    height: 705px;
+}
+#quemSomos{
+    padding: 80px;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+/**/
+#btnVoltar1{
+    margin: 20px auto auto 20px;
+}
+/**/
+#btnProximo1{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container3{
+    height: 740px;
+}
+/*Texto das perguntas do slide 2*/
+.Texto2 {
+    margin: 13.5% 4% auto 4%;
+}
+/**/
+#btnVoltar2{
+    margin: 50px auto auto 20px;
+}
+/**/
+#btnProximo2{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container4{
+    height: 730px;
+}
+/**/
+#btnVoltar3{
+    margin: 30px auto auto 20px;
+}
+/**/
+#btnProximo3{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container5{
+    height: 730px;
+}
+/**/
+#btnVoltar4{
+    margin: 40px auto auto 20px;
+}
+/**/
+#btnResultado{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container6{
+    height: 700px;
+}
+/*cores do texto */
+#seuResultado{
+    margin-top: 28%;
+}
+.Texto6{
+    margin-top: -90px;
+    margin-left: 275px;
+}
+/**/
+#btnVoltar5{
+    margin: 30px auto auto 20px;
+}
+/**/
+#btnDicas{
+    margin: -59px 20px auto 88%;
+}
+/**/
+#container7{
+    height: 1000px;
+}
+.Titulo5{
+    margin-top: 320px
+}
+/**/
+#btnVoltar6{
+    margin: 0px auto auto 750px;
+}
+/**/
+.Bot, .Bot1, .Bot2{
+    font-size: 20px;
+}
+}
+
+/*Resolução 1536×864*/
+@media screen and (max-width: 1536px){
+/*Editar diretamente os elemento do header*/
+.Logo {
+    margin-top: 20px; 
+}
+/*Editar diretamente os elemento do header*/
+.Barra {
+    margin: 1.5%;
+    font-size: 24px;
+}
+/**/
+#container1{
+    height: 775px;  
+}
+/*Texto da introdução do site*/
+#Introducao1 {
+    margin-top: 275px;   
+    font-size: 30px;   
+}
+/**/
+#container2{
+    height: 675px;
+}
+#quemSomos{
+    padding: 40px;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+/**/
+#btnVoltar1{
+    margin: 70px auto auto 20px;
+}
+/**/
+#btnProximo1{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container3{
+    height: 705px;
+}
+/*Texto das perguntas do slide 2*/
+.Texto2 {
+    margin: 12.5% 4% auto 4%;
+}
+/**/
+#btnVoltar2{
+    margin: 50px auto auto 20px;
+}
+/**/
+#btnProximo2{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container4{
+    height: 705px;
+}
+/**/
+#btnVoltar3{
+    margin: 50px auto auto 20px;
+}
+/**/
+#btnProximo3{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container5{
+    height: 705px;
+}
+/**/
+#btnVoltar4{
+    margin: 50px auto auto 20px;
+}
+/**/
+#btnResultado{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container6{
+    height: 655px;
+}
+/*cores do texto */
+#seuResultado{
+    margin-top: 28%;
+}
+.Texto6{
+    margin-top: -90px;
+    margin-left: 275px;
+}
+/**/
+#btnVoltar5{
+    margin: 30px auto auto 20px;
+}
+/**/
+#btnDicas{
+    margin: -59px 20px auto 88%;
+}
+/**/
+#container7{
+    height: 950px;
+}
+.Titulo5{
+    margin-top: 320px
+}
+/**/
+#btnVoltar6{
+    margin: -40px auto auto 700px;
+}
+/**/
+.Bot, .Bot1, .Bot2{
+    font-size: 20px;
+}
+/**/
+.Github {
+    margin: 0% 13% 10% 30%;
+}
+}
+
+/*Resolução 1440×900*/
+@media screen and (max-width: 1440px){
+/*Editar diretamente os elemento do header*/
+.Logo {
+    margin-top: 25px; 
+}
+/*Editar diretamente os elemento do header*/
+.Barra {
+    margin: 1.9%;
+}
+/**/
+#container1{
+    height: 800px;  
+}
+/**/
+#container2{
+    height: 705px;
+}
+/**/
+#btnVoltar1{
+    margin: 70px auto auto 20px;
+}
+/**/
+#container3{
+    height: 730px;
+}
+/**/
+#btnVoltar2{
+    margin: 70px auto auto 20px;
+}
+/**/
+#container4{
+    height: 735px;
+}
+/**/
+#btnVoltar3{
+    margin: 70px auto auto 20px;
+}
+/**/
+#container5{
+    height: 735px;
+}
+/**/
+#btnVoltar4{
+    margin: 70px auto auto 20px;
+}
+/**/
+#container6{
+    height: 700px;
+}
+/**/
+#btnVoltar5{
+    margin: 30px auto auto 20px;
+}
+/**/
+#container7{
+    height: 1000px;
+}
+/**/
+#btnVoltar6{
+    margin: -20px auto auto 700px;
+}
+}
+
+/*Resolução 1366×768*/
+@media screen and (max-width: 1366px){
+/*Editar diretamente os elemento do header*/
+.Logo {
+    margin-top: 10px; 
+}
+/*Editar diretamente os elemento do header*/
+nav ul .Barra {
+    margin: 1.1%;
+    font-size: 25px;
+}
+/*Texto da introdução do site*/
+#Introducao1 {
+    margin-top: 175px;  
+    font-size: 10px; 
+}
+/**/
+#container1{
+    height: 575px;  
+}
+/**/
+#container2{
+    height: 575px;
+}
+/**/
+#quemSomos{
+    padding: 60px;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin-top: 0px;
+    margin-left: 150px;
+}
+/**/
+#btnVoltar1{
+    margin: -50px auto auto 20px;
+}
+/**/
+#btnProximo1{
+    margin: -50px 20px auto 20px;
+}
+/**/
+#container3{
+    height: 575px;
+}
+/*Texto das perguntas do slide 2*/
+.Texto2 {
+    margin: 10% 4% auto 4%;
+}
+/**/
+#btnVoltar2{
+    margin: 54px auto auto 20px;
+}
+/**/
+#container4{
+    height: 575px;
+}
+/**/
+#btnVoltar3{
+    margin: 54px auto auto 20px;
+}
+/**/
+#container5{
+    height: 575px;
+}
+/**/
+#btnVoltar4{
+    margin: 54px auto auto 20px;
+}
+/**/
+#container6{
+    height: 535px;
+}
+/*cores do texto */
+#seuResultado{
+    margin-top: 15%;
+}
+/**/
+.Texto6{
+    margin-top: -100px;
+}
+/**/
+#btnVoltar5{
+    margin: -20px auto auto 20px;
+}
+/**/
+#btnDicas{
+    margin: -75px 20px auto 88%;
+}
+/**/
+#container7{
+    height: 900px;
+}
+/**/
+.Titulo5{
+    margin-top: 265px;
+    font-size: 40px;
+}
+/**/
+#btnVoltar6{
+    margin: -25px auto auto 625px;
+}
+/**/
+.Bot, .Bot1, .Bot2{
+    font-size: 15px;
+}
+/**/
+.Github, .Gmail, .Linkedin {
+    margin: 0% 13% 10% 30%;
+    width: 75px;
+    height: 75px;
+}
+}
+
+/*Resolução 1280×720*/
+@media screen and (max-width: 1280px){
+    /*Editar diretamente os elemento do header*/
+.Logo {
+    margin-top: 7px; 
+}
+#planeta{
+    margin-top: 10px;
+}
+/*Editar diretamente os elemento do header*/
+nav ul .Barra {
+    margin: 1.2%;
+    font-size: 20px;
+}
+/*Texto da introdução do site*/
+#Introducao1 {
+    margin-top: 150px;  
+}
+/**/
+#container1{
+    height: 540px;  
+}
+/**/
+#container2{
+    height: 535px;
+}
+#quemSomos{
+    padding: 80px;
+    font-size: 60px;
+}
+/*Caixa dentro do slide 1*/
+.Texto1 {
+    margin-top: -50px;
+}
+/**/
+#btnVoltar1{
+    margin: -29px auto auto 20px;
+}
+/**/
+#btnProximo1{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container3{
+    height: 530px;
+}
+/*Texto das perguntas do slide 2*/
+.Texto2 {
+    margin: 10% 4% auto 4%;
+}
+/**/
+#btnVoltar2{
+    margin: 50px auto auto 20px;
+}
+/**/
+#btnProximo2{
+    margin: -60px 20px auto 88%;
+}
+/**/
+#container4{
+    height: 530px;
+}
+/**/
+#btnVoltar3{
+    margin: 50px auto auto 20px;
+}
+/**/
+#container5{
+    height: 530px;
+}
+/**/
+#btnVoltar4{
+    margin: 50px auto auto 20px;
+}
+/**/
+#container6{
+    height: 500px;
+}
+#seuResultado{
+    font-size: 60px;
+    margin-top: 68px;
+}
+/**/
+.Texto6{
+    margin-top: -80px;
+}
+/**/
+#btnVoltar5{
+    margin: -50px auto auto 20px;
+}
+/**/
+#btnDicas{
+    margin: -62px 20px auto 88%;
+}
+/**/
+#container7{
+    height: 905px;
+}
+/**/
+.Titulo5{
+    margin-top: 290px;
+}
+/**/
+#btnVoltar6{
+    margin: -25px auto auto 550px;
+}
+/**/
+.Bot, .Bot1, .Bot2{
+    font-size: 17px;
+}
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS RESPONSIVIDADE PARA TABLETS|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Resolução 1280×800*/
+@media screen and (max-width: 1280px){
+
+}
+
+/*Resolução 962×601*/
+@media screen and (max-width: 962px){
+
+}
+/*Resolução 810×1080*/
+@media screen and (max-width: 810px){
+
+}
+
+/*Resolução 800×1280*/
+@media screen and (max-width: 800px){
+
+}
+
+/*Resolução 768×1024*/
+@media screen and (max-width: 768px){
+
+}
+
+/*Resolução 601×962*/
+@media screen and (max-width: 601px){
+
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|CSS RESPONSIVIDADE PARA SMARTPHONES|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
